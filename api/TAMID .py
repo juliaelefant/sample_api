@@ -18,7 +18,7 @@ def testPost():
     return 'POST works'
 
 @app.route('/')
-def is_up
+def is_up():
     return 'Server is up'
 
 if _name_ == '_main_':
