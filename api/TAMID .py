@@ -21,6 +21,6 @@ def testPost():
 def is_up():
     return 'Server is up'
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=8080) 
     
